@@ -15,7 +15,8 @@ public class Is_Leap_Year {
            return false;
        }else if(n%400 == 0 && n%3200 != 0){
            return true;
+       }else{
+           return false;
        }
-
     }
 }
