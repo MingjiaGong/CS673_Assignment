@@ -9,16 +9,10 @@ public class Is_Leap_Year {
     }
 
     public static boolean Is_Leap_Year(int n) {
-       if(n%4 != 0){
-           return false;
-       } else if(n%4 == 0 && n%100 != 0){
-           return true;
-       }else if(n%100 == 0 && n%400 != 0){
-           return false;
-       }else if(n%400 == 0 && n%3200 != 0){
-           return true;
-       }else{
-           return false;
+        if((n%4 == 0 && n%100 != 0 )||( n%400 ==0)){
+            return true;
+        }else{
+            return false;
        }
     }
 }
