@@ -1,3 +1,7 @@
+/**
+ * This class is to determine if a given year is a leap year.
+ * The year y is a leap year, if y is divisible by 400; y is divisible by 4, and y is NOT be divisible by 100
+ */
 public class Is_Leap_Year {
     public static void main(String[] args){
         int n = 2000;

@@ -1,3 +1,6 @@
+/**
+ * This class is to print a multiplication table for numbers up to 12.
+ */
 public class Multiplication_Table {
     public static void main(String[] args){
         Multiplication_Table(12);

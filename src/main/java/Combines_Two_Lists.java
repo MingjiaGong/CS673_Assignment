@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * This class is to combines two lists by alternatively taking elements.
+ * The length of the given two elements can be both the same or different.
+ */
 public class Combines_Two_Lists {
     public static void main(String[] args){
         List<Character> l1 = Arrays.asList('a', 'b', 'c');

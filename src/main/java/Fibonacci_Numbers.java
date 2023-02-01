@@ -2,6 +2,10 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  This class is to compute the list of the first n Fibonacci numbers.
+ *  The first 100 Fibonacci numbers is too large, so I use BigInteger.
+ */
 public class Fibonacci_Numbers {
     public static void main(String[] args){
         int n = 100;

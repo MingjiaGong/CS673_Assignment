@@ -1,3 +1,6 @@
+/**
+ * The class is to test whether a string is a palindrome.
+ */
 public class Is_Palindrome {
     public static void main(String[] args){
         String s = "abcccba";
